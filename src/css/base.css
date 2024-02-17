@@ -1,0 +1,40 @@
+body {
+  font-family: 'Inter', sans-serif;
+  color: #2c2c2c;
+  background-color: #0e1823;
+  margin: 0 auto;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.container {
+  max-width: 375px;
+  padding: 0 20px 0 20px;
+  margin: 0 auto;
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding: 0 32px 0 32px;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+    padding: 0 25px 0 25px;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .container {
+    max-width: 1440px;
+    padding: 0 25px 0 25px;
+    margin: 0 auto;
+  }
+}
